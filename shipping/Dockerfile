@@ -15,7 +15,7 @@ RUN mvn package
 #
 # Run
 #
-FROM openjdk:8u342-jdk-slim-bullseye
+FROM openjdk:26-jdk-slim-bullseye
 
 EXPOSE 8080
 
